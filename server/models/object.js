@@ -23,7 +23,7 @@ module.exports = [
 	{
 		name: "Horse",
 		character: "Ginny Weasley",
-		qualities: ["Confident","Strong","Moralistic"]
+		qualities: ["Confident","Strong","Moralistic"],
 		patronus: "horse"
 
 	},
@@ -37,7 +37,7 @@ module.exports = [
 	{
 		name: "Wolf",
 		character: "Remus Lupin",
-		qualities: ["Energy","Power","Courage"]
+		qualities: ["Energy","Power","Courage"],
 		patronus: "wolf"
 
 	},

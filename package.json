@@ -1,7 +1,6 @@
 {
   "name": "hw",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./server/server.js",
@@ -10,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelaustin/patronus_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikaelaustin/patronus_app/issues"
+  },
+  "homepage": "https://github.com/mikaelaustin/patronus_app#readme",
+  "description": ""
 }
