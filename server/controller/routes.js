@@ -4,17 +4,19 @@ var express = require('express');
 var path = require('path');
 //router
 var router = express.Router();
-//requiring the data in the object i made
-var data = require('../models/object.js');
+//patronus logic
+var patronus_controller = require('./patronus_controller.js')
+
 
 router.get('/', function(req, res){
-	console.log(req)
+	//console.log(req)
 	res.sendFile(path.join(__dirname, '../../client/html/index.html'));
 })
 
-router.post('/patronus-post', function(req,res){
-	console.log(data[i])
-	res.json(data[i])
+router.post('/patronus', function(req,res){
+	console.log(req.body)
+	//data = patronus_controller.choose_patronus(req.body)
+	res.json(patronus_controller)
 });
 
 

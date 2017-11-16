@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>What is Your Patronus?</title>
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
@@ -14,20 +14,22 @@
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
 			<form id="answer-form" >
-				<label>First Name</label>
+				<label id="name-label">First Name</label>
 				<br>
 					<input type="text" id="name-input">
 				<br>	
-				<label>Age</label>
+				<label id ="age-label">Age</label>
 				<br>
 					<input type="number" id="age-input">
 				<br>	
-				<label>Gender</label>
+				<label id="gender-label">Gender</label>
 				<br>
+				<div id="gender-input">
 					<input type="radio" name="gender" value="male" checked> Male
 					<br>
   					<input type="radio" name="gender" value="female"> Female
   					<br>
+  				</div>
 				<input class = "btn btn-primary" type="submit">
 			</form>
 		</div>
@@ -37,6 +39,6 @@
 		<div id="patronus_answer"></div>
 		
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+body{
+	background-image: url(../images/greathall.jpg);
+	opacity:.8;
+	background-size: cover;
+	
+}
+#name-label{
+	color:white;
+}
+#age-label{
+	color:white;
+}
+#gender-label{
+	color:white;
+}
+#gender-input{
+	color:white;
+}
+#patronus-answer{
+	color:white;
+}
