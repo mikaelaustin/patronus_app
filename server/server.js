@@ -8,16 +8,12 @@ var app = express();
 var bodyParser = require('body-parser');
 
 var object = require('./models/object.js');
-
+//var patronusArray =[];
 app.use(bodyParser.json());
 
 app.use('/', routes);
 
 app.use(express.static('./client')); 
-
-app.get(function(req, res){
-	res.sendFile(path.join(__dirname, '../../client/html/index.html')); 
-})
 
 var PORT = process.env.PORT || 5000;
 

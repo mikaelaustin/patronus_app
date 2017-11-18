@@ -3,7 +3,7 @@ module.exports = [
 		name: "Doe",
 		character: "Severus Snape",
 		qualities: ["Compassionate","Sensitive","Quiet"],
-		image: "../../client/images/doe.jpg",
+		image: "../images/doe.jpg",
 		patronus: "doe"
 
 	},
@@ -11,7 +11,7 @@ module.exports = [
 		name: "Dog",
 		character: "Ron Weasley",
 		qualities: ["Loyal","Intuitive","Innocent"],
-		image: "../../client/images/dog.jpg",
+		image: "../images/dog.jpg",
 		patronus: "dog"
 
 	},
@@ -19,7 +19,7 @@ module.exports = [
 		name: "Stag",
 		character: "Harry Potter",
 		qualities: ["Tenacious","Determined","Stubborn"],
-		image: "../../client/images/stag.jpg",
+		image: "../images/stag.jpg",
 		patronus: "stag"
 
 	},
@@ -27,7 +27,7 @@ module.exports = [
 		name: "Horse",
 		character: "Ginny Weasley",
 		qualities: ["Confident","Strong","Moralistic"],
-		image: "../../client/images/horse.jpg",
+		image: "../images/horse.jpg",
 		patronus: "horse"
 
 	},
@@ -35,7 +35,7 @@ module.exports = [
 		name: "Hare",
 		character: "Luna Lovegood",
 		qualities: ["Philosophical","Intellectual","Unpredictable"],
-		image: "../../client/images/hare.jpg",
+		image: "../images/hare.jpg",
 		patronus: "hare"
 
 	},
@@ -43,7 +43,7 @@ module.exports = [
 		name: "Wolf",
 		character: "Remus Lupin",
 		qualities: ["Energy","Power","Courage"],
-		image: "../../client/images/wolf.jpg",
+		image: "../images/wolf.jpg",
 		patronus: "wolf"
 
 	},
@@ -51,7 +51,7 @@ module.exports = [
 		name: "Otter",
 		character: "Hermione Granger",
 		qualities: ["Playful","Active","Joyful"],
-		image: "../../client/images/otter.jpg",
+		image: "../images/otter.jpg",
 		patronus: "otter"
 
 	},
@@ -59,7 +59,7 @@ module.exports = [
 		name: "Phoenix",
 		character: "Albus Dumbledore",
 		qualities: ["Wise","Complex","Spiritual"],
-		image: "../../client/images/phoenix.jpg",
+		image: "../images/phoenix.jpg",
 		patronus: "phoenix"
 
 	},
@@ -67,7 +67,7 @@ module.exports = [
 		name: "Cat",
 		character: "Minerva McGonagall",
 		qualities: ["Adaptable","Cunning","Graceful"],
-		image: "../../client/images/cat.jpg",
+		image: "../images/cat.jpg",
 		patronus: "cat"
 
 	},
@@ -75,7 +75,7 @@ module.exports = [
 		name: "Lynx",
 		character: "Kingsley Shacklebolt",
 		qualities: ["Agile","Independent","Observant"],
-		image: "../../client/images/lynx.jpg",
+		image: "../images/lynx.jpg",
 		patronus: "lynx"
 
 	}

@@ -8,35 +8,44 @@
 </head>
 <body>
 	<div class = "container">
-	<row>
-		<h1 class = "jumbotron text-center">What is Your Harry Potter Patronus?</h1>
-		
-		<div class="col-md-4"></div>
-		<div class="col-md-4">
-			<form id="answer-form" >
-				<label id="name-label">First Name</label>
-				<br>
-					<input type="text" id="name-input">
-				<br>	
-				<label id ="age-label">Age</label>
-				<br>
-					<input type="number" id="age-input">
-				<br>	
-				<label id="gender-label">Gender</label>
-				<br>
-				<div id="gender-input">
-					<input type="radio" name="gender" value="male" checked> Male
+		<row>
+			<h1 class = "jumbotron text-center">What is Your Harry Potter Patronus?</h1>
+			
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<form id="answer-form" >
+					<label id="name-label">First Name</label>
 					<br>
-  					<input type="radio" name="gender" value="female"> Female
-  					<br>
-  				</div>
-				<input class = "btn btn-primary" type="submit">
-			</form>
-		</div>
-		<div class="col-md-4"></div>	
+						<input type="text" id="name-input">
+					<br>	
+					<label id ="age-label">Age</label>
+					<br>
+						<input type="number" id="age-input">
+					<br>	
+					<label id="gender-label">Gender</label>
+					<br>
+					<div id="gender-input">
+						<input type="radio" name="gender" value="male" checked> Male
+						<br>
+	  					<input type="radio" name="gender" value="female"> Female
+	  					<br>
+	  				</div>
+					<input class = "btn btn-primary" type="submit">
+				</form>
+			</div>
+			<div class="col-md-4"></div>	
+		</row>
+		<row>
+			<div class="col-md-3"></div>
+			<div id="patronus_answer" class='col-md-6 text-center'>
+					<p id="patronus-name" ></p>
+					<p id="patronus-character" ></p>
+					<p id="patronus-quality" ></p>
+					<p id="patronus-image" ></p>
+				</div>
+			<div class='col-md-3'></div>	
 	</row>
 	</div>		
-		<div id="patronus_answer"></div>
 		
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
